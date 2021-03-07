@@ -1,0 +1,139 @@
+/*============================*/
+/*        default css         */
+/*============================*/
+*{margin: 0; padding: 0; outline: 0; box-sizing: border-box;}
+h1,h2,h3,h4,h5,h6{margin: 0;}
+p{ margin: 0; }
+img{max-width: 100%; height: auto;}
+ul{list-style: none; margin: 0; padding: 0;}
+ul li{display: inline-block;}
+ul li a{display: block;}
+a{text-decoration: none; color: #fff;}
+body{font-size: 15px;}
+.mt_50 {
+    margin-top: -50px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+/*===========================*/
+/*    1  header css          */
+/*===========================*/
+     /*       1.1 top header        */
+     .top-header {
+        background: rgb(5, 177, 179);
+        padding: 15px 0;
+        color: #fff;
+    }
+    ul.navbar-nav li {
+        border-right: 1px solid #f7f7f7;
+    }
+    nav.navbar.navbar-expand-lg {
+        padding: 0;
+    }
+    a#navbarDropdown {
+        padding: 0;
+    }
+    .contact-info-left ul li {
+        margin-right: 18px;
+    }
+    
+    .contact-info-left ul li:last-child {
+        margin-right: 0;
+    }
+    
+    .contact-info-left ul li i {
+        margin-right: 10px;
+    }
+    .contact-info-right nav ul li {
+        margin-left: 10px;
+        padding-right: 11px;
+    }
+    
+    .contact-info-right nav ul li:first-child {
+        margin-left: 0;
+    }
+    
+    ul.socialIcon {
+        margin-left: 15px;
+    }
+
+    /*       1.2 middle header        */
+    input.control {
+        width: 92%;
+        padding: 13px 30px;
+        border-radius: 5px 0px 0 5px;
+        border: 1px solid #05B1B3;
+    }
+
+    
+    input.control::placeholder {
+        color: #05B1B3;
+        font-weight: bold;
+    }
+    .search-area button {
+        width: 45px;
+        height: 52px;
+        line-height: 40px;
+        margin-left: -4px;
+        background: #05B1B3;
+        border: 0;
+        color: #fff;
+        BORDER-RADIUS: 0 5px 5px 0;
+    }
+
+    .logo-area a img {
+        height: 70px;
+    }
+    .search-area {
+        margin-top: 10px;
+    }
+    
+    .cart-menu {
+        margin-top: 18px;
+    }
+    
+    .cart-menu ul li i {
+        color: #05B1B3;
+        margin-right: 10px;
+    }
+    .middle-header {
+        padding: 23px 0;
+    }
+    /*       1.3 bottom header        */
+    .bottom-header {
+        background: #f7f7f7;
+        
+    }
+
+/*===========================*/
+/*    2  slider css          */
+/*===========================*/
+section#slider-area{
+    background-image: url(../images/background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.slide-content {
+    display: table;
+    height: 100vh;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.action-bg {
+    background: #fff;
+    padding: 40px 30px;
+}
+section#action-area h3 {
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 26px;
+    font-weight: bold;
+}
